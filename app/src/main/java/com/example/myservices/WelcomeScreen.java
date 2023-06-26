@@ -17,7 +17,7 @@ public class WelcomeScreen extends AppCompatActivity {
             public void run(){
                 try {
                     sleep(3000);
-                    Intent intent = new Intent(WelcomeScreen.this, CreatePIN.class);
+                    Intent intent = new Intent(WelcomeScreen.this, Home.class);
                     startActivity(intent);
                 }catch (InterruptedException e){
                     e.printStackTrace();
